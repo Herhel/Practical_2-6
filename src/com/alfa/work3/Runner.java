@@ -40,10 +40,8 @@ public class Runner {
     public void printShapes(Shape[] shapes) {
         System.out.println("\nФигуры в коллекции:");
         if (shapes != null && shapes.length > 0) {
-            for (Shape shape : shapes) {
-                if (shape != null) {
-                    shape.draw();
-                }
+            for (int i = 0; i < collectionCounter; i++) {
+                shapes[i].draw();
             }
         } else {
             System.out.println("\nНет элементов для вывода");
