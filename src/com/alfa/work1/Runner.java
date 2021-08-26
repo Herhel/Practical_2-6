@@ -9,7 +9,6 @@ public class Runner {
         } catch (ArithmeticException e) {
             System.out.println("Error: " + e.getMessage());
         }
-
         double aa = 11.1;
         double bb = 0.0;
         try {
