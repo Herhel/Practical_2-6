@@ -25,6 +25,7 @@ public class Runner {
         addShape(collection, "Triangle:GREEN:9:7,12");
     }
 
+
     private void addShape(Shape[] collection, String params) {
         if (collection.length == collectionCounter) {
             collection = Arrays.copyOf(collection, (int) (collection.length * 1.5));
